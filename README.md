@@ -36,8 +36,8 @@ data/modified_data/for_phenoBERT/full_table_agg_patient_level_phenobert03032025.
 ### Étape 1 — data_processing.ipynb
 
 1. Parse le fichier XML Orphanet → table gène/maladie 
-2. Charge les patients eHOP avec leur gène causal (rdPatData)
-3. Joint les deux dataframe 
+2. Charge les patients eHOP avec leur gène causal 
+3. Joint les deux dataframes
 4. Filtre les patients ayant plusieurs maladies possibles 
 5. Ajoute les termes HPO depuis le fichier full_table_agg_patient_level_phenobert03032025
 6. Sauvegarde → patients_multi_diseases.csv
